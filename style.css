@@ -1,53 +1,68 @@
 body{
-    
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.nav-class{
+    margin: 0% 6%;
 }
 .header-site{
     border-bottom: 1px solid lightgray;
-    margin-bottom: 10px;
 }
 .header-top{
     display: flex; 
+    margin-top: 40px; 
 }
 .header-top img{
-    margin-top: 40px;   
+    /* margin-top: 40px;    */
     margin-bottom: 10px; 
 }
-
+.form-group img{
+    padding-left: 3.375rem;
+}
 .has-search .form-control {
     background-color: #FBFBFB;
-    padding-left: 2.375rem;
-    margin-top: 65px;
+    padding-left: 8.375rem;
+    width: 470px;
+    color: #002B66;
+    
+}
+.form-control{
+    padding: 20px 10px;
 }
 input{
-    width: 266px;
+    
+    padding-left: 3.375rem;
     height: 40px;
 }
+.form-group.has-search {
+    margin-top: 20px;
+}
 .has-search .form-control-feedback {
-    width: 266px;
-    height: 40px;
     position: absolute;
-    margin-top: 53px;
+    margin-top: 10px;
     z-index: 2;
     display: block;
-    width: 2.375rem;
-    height: 2.375rem;
-    line-height: 4.375rem;
+    height: 1.375rem;
+    line-height: 3.375rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
 }
 .menu {
     border-bottom: 1px solid lightgray;
 }
-.nav{
-    margin-bottom: 10px;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 15px;
+    padding-left: 15px; 
 }
-.nav li a{
-    color: #002B66;
+.navbar-light .navbar-nav .nav-link{
+    color: #002B66 !important;
+    font-size: 16px;
 }
-.nav li a:hover{
-    color: #002B66;
-    font-weight: 500;
+.navbar-light .navbar-nav .nav-link:hover{
+    text-decoration: underline;
 }
 .nav i{
     float: right;
@@ -110,6 +125,7 @@ input{
     margin-bottom: 60px;
 }
 /*trust section end*/
+
 /*overview section start*/
 .overview-site{
     display: flex;
@@ -357,17 +373,6 @@ h3{
 }
 /*professional end*/
 
-/* .training-material img{
-    width: 100%;
-    z-index: -1;
-}
-.box{
-    background: #FFFFFF;
-    box-shadow: 5px 5px 40px lightgray;
-    width: 88%;
-    margin: -250px auto;
-    text-align: justify;
-} */
 .training-material img{
     width: 100%;
 }
